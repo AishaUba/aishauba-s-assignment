@@ -1,0 +1,523 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home-header {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/html/slider/slider.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.contact-header {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../html/tech.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#navbar {
+    justify-content: center;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+}
+
+#navbar ul li a {
+    color: #fff;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+    text-decoration: none;
+}
+
+.hero {
+    position: absolute;
+    /* margin: 150px 350px; */
+    top: 250px;
+    left: 500px;
+
+}
+
+.hero h1 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 3.3em;
+    margin: 10px;
+}
+
+.hero p {
+    color: #fff;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.hero button {
+    padding: 10px;
+    background-color: #2254a3;
+    border-radius: 8px;
+    margin-left: 140px;
+    border: none;
+    color: #fff;
+}
+
+/* service section */
+.service {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/html/tech.jpg);
+}
+
+.service img {
+    width: 150px;
+    margin: 10px 600px;
+}
+
+.service h2,
+.service p {
+    color: #fff;
+    /* width: 30%; */
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+}
+
+.service p {
+    font-size: x-small;
+}
+
+.service-boxes {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    height: 25vh;
+    width: 20vw;
+    margin: 10px;
+    border-radius: 2px;
+}
+
+.box h2 {
+    font-size: 3em;
+}
+
+
+.light-green-box {
+    background-color: #32a86f;
+}
+
+.orange-box {
+    background-color: #e67505;
+}
+
+.blue-box {
+    background-color: #277bc4;
+}
+
+.red-box {
+    background-color: #d6042b;
+}
+
+.purple-box {
+    background-color: #95169c;
+}
+
+.brown-box {
+    background-color: #e07714;
+}
+
+/* app section */
+.app-section {
+    height: 80vh;
+    width: 100vw;
+    background-image: url(/html/apps.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.app-section-content {
+    color: #fff;
+    /* width: 30%; */
+    margin: auto;
+    text-align: center;
+    padding-top: 240px;
+}
+
+.app-section button {
+    padding: 4px 20px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+/* Featured product section */
+.featured-product-section img,
+.featured-product-section h2 {
+    width: 200px;
+    margin: 10px 0 10px 550px;
+}
+
+.featured-boxes {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.featured-box {
+    background-image: url(/html/maroon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 45vh;
+    width: 20vw;
+    margin: 10px;
+    /* border: 2px solid black; */
+    border-radius: 2px;
+}
+
+.featured-product-section button {
+    margin: 10px 600px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #2254a3;
+    padding: 5px 16px;
+}
+
+/* Contact Section */
+.contact-section {
+    background-image: url(/html/contact.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.contact-section-content img,
+.contact-section-content h2,
+.contact-section-content p {
+    width: 300px;
+    margin: 10px 0 10px 550px;
+
+}
+
+.contact-section-content h2 {
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+}
+
+.contact-section-content p {
+    color: #fff;
+    text-align: center;
+
+}
+
+.contact-section-content button {
+    text-align: center;
+    margin: 10px 0 10px 640px;
+    padding: 5px 16px;
+    border-radius: 10px;
+    border: none;
+    font-size: 12px;
+}
+
+/* Footer */
+footer {
+    width: 100vw;
+    height: 8vh;
+    background-color: grey;
+    display: flex;
+}
+
+footer p {
+    padding: 20px;
+    font-size: 10px;
+}
+
+footer .icons {
+    margin-left: 900px;
+    padding-top: 20px;
+    color: #fff;
+}
+
+/* Contact hero */
+.contact-hero {
+    position: absolute;
+    /* margin: 150px 350px; */
+    top: 250px;
+    left: 450px;
+
+}
+
+.contact-hero h3 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 2em;
+    margin: 10px;
+    text-align: center;
+}
+
+.contact-hero p {
+    color: #fff;
+    font-size: 1.5em;
+    padding: 10px;
+    text-align: center;
+}
+
+.contact-showcase {
+    background-image: url(/html/contact.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.contact-showcase-content {
+    padding: 100px 0 0 600px;
+}
+
+.contact-showcase-content img {
+    width: 200px;
+}
+
+.contact-showcase-content h1 {
+    color: #fff;
+    font-size: xx-large;
+}
+
+.contact-showcase-content p {
+    color: #fff;
+    padding-left: 40px;
+}
+
+.contact-icon-section {
+    width: 80vw;
+    height: 30vh;
+    /* border: 1px solid #fff; */
+    margin: auto;
+    display: flex;
+}
+
+.icon-boxes {
+    width: 10vw;
+    height: 10vh;
+    /* border: 1px solid #fff; */
+    margin: 20px auto;
+}
+
+.icon-boxes .icon,
+.icon-boxes p {
+    text-align: center;
+    color: #fff;
+}
+
+.contact-button {
+    margin-left: 650px;
+}
+
+.contact-button button {
+    padding: 5px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Project section */
+.project-nav {
+    background-color: grey;
+}
+
+.about-div {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 98vw;
+    height: 100vh;
+    display: flex
+}
+
+.about-image {
+    width: 30vw;
+    height: 100vh;
+    margin: auto;
+    background-image: url(/html/a2kapp.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.about-features {
+    width: 40vw;
+    height: 100vh;
+    margin: auto;
+}
+
+.about-features-content {
+    margin-bottom: 20px;
+}
+
+.about-features h2 {
+    margin-bottom: 15px;
+}
+
+.about-features-content p {
+    line-height: 2em;
+}
+
+.about-features ul li {
+    list-style-type: none;
+    line-height: 2em;
+
+}
+
+.about-features ul li i {
+    padding-right: 10px;
+    color: blue;
+}
+
+.about-features button {
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 20px;
+    background-color: #189948;
+}
+
+.skills-div {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    width: 98vw;
+    height: 60vh;
+    display: flex;
+    background-color: #f2f2f2;
+}
+
+.skills-deliverables {
+    width: 30vw;
+    height: 100vh;
+    margin: auto;
+    /* border: 1px solid #000; */
+}
+
+.skills {
+    width: 40vw;
+    height: 100vh;
+    margin: auto;
+}
+
+.about-features-content {
+    margin-bottom: 20px;
+}
+
+.skills-div h2,
+.skills-div p {
+    margin-bottom: 15px;
+    line-height: 2em;
+}
+
+.skills-div ul li {
+    list-style-type: none;
+}
+
+.skills-div ul li i {
+    padding-right: 10px;
+    color: blue;
+    line-height: 2em;
+}
+
+.skill h4 {
+    margin-bottom: 10px;
+}
+
+.more-project {
+    width: 90vw;
+    height: 50vh;
+    margin: auto;
+}
+
+.more-project h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.more-project p {
+    text-align: center;
+    line-height: 2em;
+}
+
+.gallery {
+    width: 90vw;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+}
+
+.images {
+    width: 22vw;
+    height: 50vh;
+}
+
+.image-1 {
+    background-image: url(/html/nileconnect.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.image-2 {
+    background-image: url(/html/lead.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.image-3 {
+    background-image: url(/html/nasara.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.image-4 {
+    background-image: url(/html/a2k.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* shop section */
+.card-section {
+    width: 90vw;
+    height: 50vh;
+    margin: 30px auto;
+    display: flex;
+}
+
+.card {
+    width: 21vw;
+    height: 50vh;
+    margin: auto;
+    box-shadow: 2px;
+    box-shadow: 2px 2px #ebe7e7;
+}
+
+.card-image {
+    width: 20vw;
+    height: 35vh;
+}
