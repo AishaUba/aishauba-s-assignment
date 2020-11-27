@@ -7,7 +7,7 @@
 .home-header {
     height: 100vh;
     width: 100vw;
-    background-image: url(/html/slider/slider.jpg);
+    background-image: url(../html/slider/slider.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -74,7 +74,7 @@
 .service {
     height: 100vh;
     width: 100vw;
-    background-image: url(/html/tech.jpg);
+    background-image: url(../html/tech.jpg);
 }
 
 .service img {
@@ -141,7 +141,7 @@
 .app-section {
     height: 80vh;
     width: 100vw;
-    background-image: url(/html/apps.jpg);
+    background-image: url(../html/apps.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -178,7 +178,7 @@
 }
 
 .featured-box {
-    background-image: url(/html/maroon.jpg);
+    background-image: url(../html/maroon.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -200,7 +200,7 @@
 
 /* Contact Section */
 .contact-section {
-    background-image: url(/html/contact.jpg);
+    background-image: url(../html/contact.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -281,7 +281,7 @@ footer .icons {
 }
 
 .contact-showcase {
-    background-image: url(/html/contact.jpg);
+    background-image: url(../html/contact.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -311,7 +311,6 @@ footer .icons {
 .contact-icon-section {
     width: 80vw;
     height: 30vh;
-    /* border: 1px solid #fff; */
     margin: auto;
     display: flex;
 }
@@ -319,7 +318,6 @@ footer .icons {
 .icon-boxes {
     width: 10vw;
     height: 10vh;
-    /* border: 1px solid #fff; */
     margin: 20px auto;
 }
 
@@ -356,7 +354,7 @@ footer .icons {
     width: 30vw;
     height: 100vh;
     margin: auto;
-    background-image: url(/html/a2kapp.png);
+    background-image: url(../html/a2kapp.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -474,28 +472,28 @@ footer .icons {
 }
 
 .image-1 {
-    background-image: url(/html/nileconnect.jpg);
+    background-image: url(../html/nileconnect.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .image-2 {
-    background-image: url(/html/lead.jpg);
+    background-image: url(../html/lead.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .image-3 {
-    background-image: url(/html/nasara.jpg);
+    background-image: url(../html/nasara.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .image-4 {
-    background-image: url(/html/a2k.jpg);
+    background-image: url(../html/a2k.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
